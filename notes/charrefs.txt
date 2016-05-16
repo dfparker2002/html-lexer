@@ -62,6 +62,7 @@ According to the following rules.
 		* If in addition the lexeme is not terminated then this is a parse error ('non terminated entity'). 
 	* If it is a prefix of the lexeme (this only happens when the lexeme is not terminated)
 		then it is parsed as a reference, a 'non-terminated entity' parse errror, and the remaining characters as data. 
+		EXEPT in attribute values! There it is parsed as data. 
 
 
 * * * 
